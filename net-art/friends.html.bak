@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YOU WIN</title>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><h style="color:white;">You had a good time with friends.</h></center>
+</head>
+<body>
+ <style>
+ 
+body {
+  background-image: url('dream-world.gif');
+}
+
+
+</style> 
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: center;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="friend.jpeg" alt="omori" style="width:90%">
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+ <center><a href="index.html" style="color:#FF0000;"><font size="+20">>Start Over</start over></a></center> 
+
+</body>
+</html> 

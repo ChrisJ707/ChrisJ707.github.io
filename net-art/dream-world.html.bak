@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HEADSPACE</title>
+</head>
+<style>
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="color:white">Welcome to Headspace</h1>
+<h2 style="color:white">Your personal dream world :)</h2>
+
+<style>
+body {
+  background-image: url('dream-world.gif');
+  /* Full height */
+  height: 100%;
+  width: 100%;  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style> 
+
+<style>
+ .float-img {
+  float: right;
+  margin-right: 10px;
+  margin-bottom; 5px
+  padding: 2px
+  }
+  </style>
+
+<img src="headspace.jpg" width= 533px height= 405px alt="headspace>
+	<style="float: left; margin-right: 10px; margin-bottom: 5px;"/>
+	<p style="color:white"> You crossed the door and you've come to a familar place and set of faces. <br> These are your friends! And this is your headspace; your personal dream world.
+<br>
+<br>
+
+<img src="mirror-friend.gif" width= 533px height= 405px alt="headspace>
+	<style="float: left; margin-right: 10px; margin-bottom: 5px;"/>
+
+<h3 style="color:white">what are you going to do in headspace?</h3>
+ <a href="dream-world.html" style="color:white;"><font size="+2">>Go upstairs</font></a> 
+ <a href="white-room.html" style="color:white;"><font size="+2">>Keep staring in the mirror</font></a> 
+
+
+
+</body>
+</html> 

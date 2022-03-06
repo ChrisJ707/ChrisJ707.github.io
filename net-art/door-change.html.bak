@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>White Door</title>
+</head>
+
+
+</head>
+<body>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="white-door.jpg" alt="door" style="width:85%">
+  </div>
+  <div class="column">
+    <a href="lightbulb2.jpg"</a> 
+    <img src="lightbulb2.jpg" alt="lightbulb" style="width:15%">
+	<p>A lightbulb appeared. Touch it?</p>
+  </div>
+</div>
+<style>
+h2 {
+  margin: 25px 50px 75px;
+}
+a {
+  margin: 25px 50px 75px;
+}
+</style>
+
+<h2>you find yourself in a white room with a door. what will you do?</h2>
+ <a href="dream-world.html" style="color:#FF0000;"><font size="+2">>Open the door</font></a> 
+ <a href="door-change.html" style="color:#FF0000;"><font size="+2">>Do Nothing</font></a> 
+
+ 
+</body>
+</html> 

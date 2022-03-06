@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Black Door</title>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><h style="color:white;">Click the mirror.</h></center>
+</head>
+<body>
+
+ <style>
+ 
+body {
+  background-image: url('dream-world.gif');
+}
+
+</style> 
+
+<a href="secret-mirror.html"</a>
+ <center><img src="mirror-friend.gif" alt="mirror" style="width:70%"</center>
+ 
+</body>
+</html> 
