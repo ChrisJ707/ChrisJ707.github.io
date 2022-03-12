@@ -1,0 +1,153 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>p5js Self Portrait</title>
+</head>
+<body 
+style="background-color:rgb(214, 206, 150);">
+</body>
+
+<h1>This Is My Self-Portrait!</h1>
+<p>My name is Chris and I made all this with code.</p>
+
+<img src="p5js-self-portrait.png" alt="self-portrait" style="width:70%">
+
+<br>
+<p>Run my self-portrait on your computer through the following code</p>
+
+<p>function setup() { <br>
+  createCanvas(520, 520); <br>
+<br>
+} <br>
+<br>
+function draw() { <br>
+ background(177, 156, 217); // background color <br>
+  //cube bubbles <br>
+  fill(255, 255, 255, 70); <br>
+  rect(130, 50, 30, 30); //tiniest cube <br>
+  rect(50, 110, 40, 40); //tiny cube <br>
+  rect(420, 190, 60, 60); //smaller cube <br>
+  rect(110, 300, 100, 100); //small cube <br>
+  rect(320, 0, 200, 200); //medium cube <br>
+  rect(305, 10, 200, 200); //medium cube <br>
+  rect(60, 120, 400, 200); //big cube <br>
+  rect(20, 260, 210, 210); //bigger cube <br>
+  <br> 
+ //shirt <br>
+ fill(171, 36, 26); <br>
+  ellipse(315, 500, 280, 350);//hoodie <br>
+  <br>
+ //hoodie <br>
+ fill(204, 44, 33); <br>
+  ellipse(330, 380, 190, 160);// back ofhoodie <br>
+ fill(204, 61, 51); <br>
+  ellipse(300, 380, 190, 160);//hoodie <br>
+ fill(87, 17, 12); <br>
+  ellipse(295, 400, 120, 100);// shading <br>
+  <br>
+ //hair behind face <br>
+ fill(5, 5, 5); <br>
+  rect(160, 100, 250, 200, 100, 100, 90, 80); //Big rectangle <br>
+  triangle(165, 225, 140, 230, 162, 160); //first strand <br>
+  triangle(150, 205, 120, 220, 162, 160); //second strand <br>
+  triangle(155, 190, 100, 180, 162, 150); //third strand <br>
+  triangle(145, 180, 100, 125, 190, 130); //fourth strand <br>
+  triangle(185, 160, 130, 100, 210, 110); //fifth strand <br>
+  triangle(185, 160, 130, 100, 210, 110); //sixth strand <br>
+  triangle(210, 160, 170, 70, 350, 130); //seventh strand <br>
+  triangle(230, 160, 245, 68, 360, 130); //eight strand <br>
+  triangle(190, 160, 320, 72, 350, 130); //ninth strand <br>
+  <br>
+  //left glasses stems <br>
+  fill(54, 86, 138); <br>
+   rect(147, 275, 20, 10); //left glasses stem <br>
+  <br>
+  ///neck <br>
+  fill(207, 191, 149); <br>
+   rect(260, 340, 60, 70); //main neck <br>
+  fill(200, 100, 90); <br>
+   rect(260, 345, 60, 40); //shading <br>
+  fill(207, 191, 149); <br>
+   arc(290, 400, 70, 70, TWO_PI, PI); <br>
+  endShape(); <br>
+  <br>
+  ///face <br>
+  fill(207, 191, 149); <br>
+   ellipse(260, 255, 210, 240); //main head <br>
+   ellipse(250, 325, 190, 100); //left cheek <br>
+   ellipse(260, 325, 190, 100); //right cheek <br>
+  <br>
+ //hairline over face <br>
+ fill(5, 5, 5); <br>
+  rect(160, 132, 230, 60, 80, 70, 0, 0); //top of hairline <br>
+  rect(333, 200, 40, 100); //side hairline <br>
+  rect(300, 160, 70, 50); //ear hairline <br>
+  <br>
+   ///whites of the eyes <br>
+ fill(255, 255, 255); <br>
+  arc(200, 272, 60, 72, 0, PI, CHORD); //left eye <br>
+  arc(290, 272, 60, 72, 0, PI, CHORD); //right eye <br>
+  <br>
+ ///pupils <br>
+ fill(0, 0, 0); <br>
+  arc(200, 272, 30, 36, 0, PI, CHORD); //left pupil <br>
+  arc(290, 272, 30, 35, 0, PI, CHORD); //right pupil <br>
+  <br>
+ //eye wrinkle <br>
+   fill(100, 100, 100); <br>
+  arc(200, 275, 70, 90, 40, PI, CHORD); //left wrinkle <br>
+  arc(290, 275, 70, 90, 40, PI, CHORD); //right wrinkle <br>
+  <br>
+ //right glasses stem <br>
+ fill(54, 86, 138); <br>
+  rect(320, 275, 80, 10); //right glasses stem <br>
+  <br>
+ ///ear <br>
+ fill(207, 191, 149); <br>
+  ellipse(365, 300, 65, 65); <br>
+  //ear shade <br>
+      fill(217, 130, 104); <br>
+      arc(370, 300, 40, 40, 0,357); <br>
+  <br>
+ //mouth <br>
+ fill(255,0,0,100); <br>
+  arc(240, 338, 50, 40, TWO_PI, PI); <br>
+  endShape(); <br>
+  //Teeth <br>
+  fill(255); <br>
+  strokeWeight(2); <br>
+  arc(240, 338, 49, 15, 0, 91.1); <br>
+  <br>
+ //eyebrows <br>
+ fill(20, 20, 20); <br>
+  arc(160,260,120,10, 180, 0); //left eyerbrow <br>
+  arc(260,260,130,10, 180, 0); //right eyebrow <br>
+  <br>
+ //Glasses <br>
+  stroke(150,150,150,255); <br>
+  fill(255,255,255,120); <br>
+  //rightlens <br>
+  rect(250, 275, 70, 50, 0, 0, 20, 20); <br>
+  fill(65, 65, 65); <br>
+  rect(250,275,70,6); <br>
+  fill(255,255,255,120); <br>
+  stroke(150,150,150,255); <br>
+  //leftlens <br>
+  rect(150, 275, 70, 50, 0, 0, 20, 20); <br>
+  fill(65, 65, 65); <br>
+  rect(150,275,70,6); <br>
+    noStroke(); <br>
+     //Lens Glares <br>
+      fill(255); <br>
+      ellipse(165,315,15,10); //left glare <br>
+      ellipse(300,315,15,10); //right glare <br>
+      //Nose Bridge Frames <br>
+      fill(54, 86, 138); <br>
+      rect(220, 275, 30, 5); <br>
+  <br>
+  noStroke();
+}</p>
+
+
+</body>
+</html> 
