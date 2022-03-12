@@ -10,7 +10,7 @@ style="background-color:rgb(214, 206, 150);">
 <h1>This Is My Self-Portrait!</h1>
 <p>My name is Chris and I made all this with code.</p>
 
-<img src="p5js-self-portrait.png" alt="self-portrait" style="width:30%">
+<img src="p5js-self-portrait.png" alt="self-portrait" style="width:70%">
 
 <br>
 <p>Run my self-portrait on your computer through the following code</p>
