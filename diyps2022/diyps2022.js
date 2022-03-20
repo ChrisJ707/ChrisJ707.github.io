@@ -8,26 +8,26 @@ function preload() {
 // preload() runs once, it may make you wait
 //  img = loadImage('kirby.png');  // cat.jpg needs to be next to this .js file
 // you can link to an image on your github account
-  img = loadImage('https://chrisj707.github.io/cc-diyps2021/notes.png');
-  img2 = loadImage('https://chrisj707.github.io/cc-diyps2021/error.jpg');
-  img3 = loadImage('https://chrisj707.github.io/cc-diyps2021/painter.png');
-  img4 = loadImage('https://chrisj707.github.io/cc-diyps2021/warning.png');
-  img5 = loadImage('https://chrisj707.github.io/cc-diyps2021/pointer.png');
-  img6 = loadImage('https://chrisj707.github.io/cc-diyps2021/hand.png');
-  img7 = loadImage('https://chrisj707.github.io/cc-diyps2021/start.png');
-  img8 = loadImage('https://chrisj707.github.io/cc-diyps2021/vwindow.png');
-  img9 = loadImage('https://chrisj707.github.io/cc-diyps2021/pusheen.png');
-  img10 = loadImage('https://chrisj707.github.io/cc-diyps2021/explosion.png');
-  img11 = loadImage('https://chrisj707.github.io/cc-diyps2021/stick.png');
-  img12 = loadImage('https://chrisj707.github.io/cc-diyps2021/hearteyed.png');
-  img13 = loadImage('https://chrisj707.github.io/cc-diyps2021/sleep.png');
-  img14 = loadImage('https://chrisj707.github.io/cc-diyps2021/fire.png');
-  img15 = loadImage('https://chrisj707.github.io/cc-diyps2021/kirby.png');
-  img16 = loadImage('https://chrisj707.github.io/cc-diyps2021/mariojump.png');
-  img17 = loadImage('https://chrisj707.github.io/cc-diyps2021/star.png');
-  img18 = loadImage('https://chrisj707.github.io/cc-diyps2021/pikachu.png');
-  img19 = loadImage('https://chrisj707.github.io/cc-diyps2021/cloud1.png');
-  img20 = loadImage('https://chrisj707.github.io/cc-diyps2021/catcry.png');
+  img = loadImage('https://chrisj707.github.io/diyps2022/notes.png');
+  img2 = loadImage('https://chrisj707.github.io/diyps2022/error.jpg');
+  img3 = loadImage('https://chrisj707.github.io/diyps2022/painter.png');
+  img4 = loadImage('https://chrisj707.github.io/diyps2022/warning.png');
+  img5 = loadImage('https://chrisj707.github.io/diyps2022/pointer.png');
+  img6 = loadImage('https://chrisj707.github.io/diyps2022/hand.png');
+  img7 = loadImage('https://chrisj707.github.io/diyps2022/start.png');
+  img8 = loadImage('https://chrisj707.github.io/diyps2022/vwindow.png');
+  img9 = loadImage('https://chrisj707.github.io/diyps2022/pusheen.png');
+  img10 = loadImage('https://chrisj707.github.io/diyps2022/explosion.png');
+  img11 = loadImage('https://chrisj707.github.io/diyps2022/stick.png');
+  img12 = loadImage('https://chrisj707.github.io/diyps2022/hearteyed.png');
+  img13 = loadImage('https://chrisj707.github.io/diyps2022/sleep.png');
+  img14 = loadImage('https://chrisj707.github.io/diyps2022/fire.png');
+  img15 = loadImage('https://chrisj707.github.io/diyps2022/kirby.png');
+  img16 = loadImage('https://chrisj707.github.io/diyps2022/mariojump.png');
+  img17 = loadImage('https://chrisj707.github.io/diyps2022/star.png');
+  img18 = loadImage('https://chrisj707.github.io/diyps2022/pikachu.png');
+  img19 = loadImage('https://chrisj707.github.io/diyps2022/cloud1.png');
+  img20 = loadImage('https://chrisj707.github.io/diyps2022/catcry.png');
 }
 
 function setup() {
