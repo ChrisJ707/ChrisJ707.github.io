@@ -1,15 +1,3 @@
- <!DOCTYPE html>
-<html>
-<head>
-<title>Do It Yourself Photoshop</title>
-</head>
-<body 
-style="background-color:rgb(214, 206, 150);">
-</body>
-
-<h1>Create your own retro windows aesthetic and draw some video game art!</h1>
-<p>I made this drawbox through code.</p>
-
 var img;
 var initials ='jm'; // your initials
 var choice = '1'; // starting choice, so it is not empty
@@ -43,7 +31,7 @@ function preload() {
 }
 
 function setup() {
-createCanvas(600, 650);  // canvas size
+createCanvas(650, 600);  // canvas size
 background(40,40, 40);   // use our background screen color
 
 }
@@ -66,7 +54,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
  if (toolChoice == '1' ) {  // first tool
    
    //Hotkey 1
-    image(img, mouseX, mouseY, 280, 280);
+    image(img, mouseX, mouseY, 180, 180);
   } else if (toolChoice == '2') { // second tool
    
     //Hotkey 2
@@ -172,6 +160,3 @@ function saveme(){
   lastscreenshot=second(); // set this to the current second so no more than one per second
   
 }
-
-</body>
-</html> 
