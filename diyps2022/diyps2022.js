@@ -92,7 +92,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     //Hotkey 0
     stroke(0, 0);
     fill(random(255), random(255), random(255), random(255));
-    rect(mouseX, mouseY, 300, 300);
+    rect(mouseX, mouseY, 650, 600);
     
     
   } else if (toolChoice == '-' || toolChoice == '-') { // g places the image we pre-loaded
