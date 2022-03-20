@@ -15,5 +15,32 @@ style="background-color:rgb(214, 206, 150);">
 <iframe src="diyps2022/index.html" height="600" width="650" title="Iframe Example">
 </iframe>
 
+<br>
+<h2> Buttons
+<br>
+<p2> 
+1 = notes window <br>
+2 = error message <br>
+3 = painter window <br>
+4 = warning message <br>
+5 = pointer <br>
+6 = hand <br>
+7 = window start button <br>
+8 = two text windows <br>
+9 = pusheen <br>
+0 = random color box <br>
+- = explosion <br>
+= = stick man <br>
+q = hearteyed emoji <br>
+w = sleep emoji <br>
+e = fire emoji <br>
+r = kirby <br>
+t = mario jump <br>
+y = star <br>
+u = pikachu <br>
+i = mario cloud <br>
+o = catcry 
+</p2>
+
 </body>
 </html>
