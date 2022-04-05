@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(255, 99, 71);
+  background-image: url('images/scroll.gif');
+  /*background-repeat: no-repeat;*/
+}
+
+h1 {
+  font-family: Arial;
+  padding-left: 20px;
+  font-weight: 900
+  color: white;
+}
+
+h2 {
+  padding-left: 20px;
+  color: darkred;
+}
+
+p {
+  font-family: Arial;
+  font-size: 24px;
+  margin: 5px auto;
+  padding-left: 20px;
+  color: floralwhite;
+}
+
+
+p3 {
+  font-family: Lucida Console;
+  font-size: 12px;
+  margin: 5px auto;
+  padding-left: 20px;
+  color: floralwhite;
+  text-align: center;
+}
+
+img{
+  display: block;
+/*  margin-right: auto ;
+  margin-left: auto;*/
+  margin: 50px auto;
+}
+
+}

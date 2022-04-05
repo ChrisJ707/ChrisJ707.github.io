@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='mycss.css'>
+<title>Meme Mashup</title>
+</head>
+
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+<body style="margin:15;padding:20">
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+ <ul class="navbar-nav">
+ 	<li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+	<li class="nav-item"><a class="nav-link" href="glitch.html">glitch</a></li>
+	<li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
+    <li class="nav-item"><a class="nav-link" href="net-art.html">net-art</a></li>
+    <li class="nav-item"><a class="nav-link" href="self-portrait.html">self-portrait</a></li>
+	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
+	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
+	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
+</ul> 
+</nav>
+
+<br>
+<h1>MEME MASHUP</h1>
+<p><p style="text-align:center">Kanye West VS Pete Davidson (Meme Mashup Project)</p>
+<h2><p style="text-align:left">Images Used</h2>
+
+ <style>
+ margin: 10px
+body {
+  background-image: url('pokemon.jpg');
+}
+</style> 
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+ 
+<div class="row">
+  <div class="column">
+    <img src="images/angry.jpg" class="img-fluid rounded" alt="angry" style="width:85%">
+	<img src="images/happy-kanye.png" class="img-fluid rounded" alt="kanye1" style="width:85%">
+  </div>
+  <div class="column">
+    <img src="images/note-meme.jpg" class="img-fluid rounded" alt="meme" style="width:90%">
+	<img src="images/mad-kanye.jpg" class="img-fluid rounded" alt="kanye2" style="width:93%">
+  </div>
+  <div class="column">
+    <img src="images/pete.png" class="img-fluid rounded" alt="pete" style="width:85%">
+	<p3>​The point of the assignment was to create a meme mashup that reflects the humor in today's society and so I combined these 5 images and edited them in Photoshop.</p3>
+  </div>
+</div>
+
+<br>
+ <style>
+ padding: 10px;
+body {
+  background-image: url('pokemon.jpg');
+}
+</style> 
+<h3><p style="text-align:left">Final Result</h3>
+<img src="images/meme-mashup.png" class="img-fluid rounded" alt="mashup" style="width:40%" align="left">
+
+<p3>Here is a meme I made based on the recent celebrity news regarding the Kanye West vs Pete Davidson controversy with Kim 
+Kardashian. Despite Kanye harassing Pete all over social media and trying to get back with Kim, Petey here is still winning with Kim and this image is kinda like showing Kanye West's internal feelings.</p3>
+
+<br>
+<div class="row">
+  <div class="column">
+   <br> <a href="glitch.html"><p style="text-align:left">BACK</a>
+  </div>
+  <div class="column">
+    <br> <a href="index.html"><p style="text-align:center">HOME</a>
+  </div>
+  <div class="column">
+  <br> <a href="net-art.html"><p style="text-align:right">NEXT</a>
+  </div>
+</div>
+
+
+</body>
+</html> 
