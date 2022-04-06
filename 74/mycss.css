@@ -1,37 +1,83 @@
+
 body {
-  background-color: rgb(255, 99, 71);
-  background-image: url('images/scroll.gif');
-  /*background-repeat: no-repeat;*/
+
+text-align: center;
+
 }
 
 h1 {
-  font-family: Arial;
+  font-size: 90px;
+  font-weight: 400;
   padding-left: 20px;
-  font-weight: 900
-  color: white;
+  color: floralwhite;
 }
 
 h2 {
   padding-left: 20px;
-  color: darkred;
+  color: orangered;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: Lucida Console;
+  font-size: 30px;
+  margin: 5px auto;
+  padding-left: 20px;
+  color: floralwhite;
+}
+
+h4 {
+  font-family: Lucida Console;
+  font-size: 23px;
+  margin: 5px auto;
+  color: floralwhite;
+  text-align: center;
+}
+
+h5 {
+  font-size: 30px;
+  padding-left: 20px;
+  color: floralwhite;
 }
 
 p {
-  font-family: Arial;
+  font-family: 'Courier New', monospace;
   font-size: 24px;
   margin: 5px auto;
-  padding-left: 20px;
   color: floralwhite;
 }
 
+body, html {
+  height: 100%;
+}
 
-p3 {
-  font-family: Lucida Console;
-  font-size: 12px;
-  margin: 5px auto;
-  padding-left: 20px;
-  color: floralwhite;
-  text-align: center;
+.bg {
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 img{
@@ -40,5 +86,6 @@ img{
   margin-left: auto;*/
   margin: 50px auto;
 }
+
 
 }

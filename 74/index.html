@@ -12,11 +12,14 @@
 
 <title>chrisj707 portfolio</title>
 </head>
-
 <body>
 <div class="container-fluid">
-<body style="margin:15;padding:20">
 
+ <style>
+body {
+  background-image: url('images/scroll.gif');
+}
+</style> 
 
 <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
  <ul class="navbar-nav">
@@ -31,83 +34,75 @@
 </ul> 
 </nav>
 
-<img src="images/logo.png" class="img-fluid rounded" alt="glitch" style="width:45%">
-<br>
-<h1>Welcome & take a look at my projects</h1>
+<img src="images/website-logo.png" class="img-fluid rounded" alt="glitch" style="width:45%">
 
+<h5>Welcome & take a look at my projects</h1>
+<br>
+<br>
 <h2>ART 74 Portfolio</h2>
-<p5><p style="text-align:left">These are all the projects I've done in ART 74. Click the links under each respective picture to go to it's page.</p5>
-
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
- 
-<div class="row">
-  <div class="column">
-  <p><p style="text-align:center">"Fashion" Series (Glitch Art Project)</p>
-    <img src="images/glitch1.png" class="img-fluid rounded" alt="glitch" style="width:85%">
-	<p3>This project was a utilization of two different glitching methods using audio and the other was adjusting the image code.</p3>
-	<br> <a href="glitch.html"><p style="text-align:center">view my glitch</a>
-  </div>
-  <div class="column">
-  <p><p style="text-align:center">Kanye West VS Pete Davidson <br>(Meme Mashup Project)</p>
-    <img src="images/meme-mashup.png" class="img-fluid rounded" alt="meme" style="width:90%">
-	<p3>This is a Photoshop meme mash up project.</p3>
-	<br> <a href="meme.html"><p style="text-align:center">view my meme</a>
-  </div>
-  <div class="column">
-  <p><p style="text-align:center">Net Art</p>
-    <img src="images/white-space.gif" class="img-fluid rounded" alt="net-art" style="width:85%">
-	<p3>​This game is a point-and-click adventure where you the player are stuck in your subconscious and dreams.</p3>
-	<br> <a href="net-art.html"><p style="text-align:center">view my game</a>
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
-  <p><p style="text-align:center">p5.js Self-Portrait</p>
-    <img src="images/p5js-self-portrait.png" class="img-fluid rounded" alt="portrait" style="width:85%">
-	<p3>A stylized self portrait of myself using p5.js coding.</p3>
-	<br> <a href="self-portrait.html"><p style="text-align:center">view my portrait</a>
-  </div>
-  <div class="column">
-  <p><p style="text-align:center">DIYPS 2020</p>
-    <img src="images/diyps.png" alt="diyps" class="img-fluid rounded" style="width:93%">
-	<p3>A doodling application that can specifically create retro windows aesthetic and 8-bit video game art.</p3>
-	<br> <a href="diyps.html"><p style="text-align:center">view my tool</a>
-  </div>
-  <div class="column">
-  <p><p style="text-align:center">Minecraft</p>
-    <img src="images/74.png" class="img-fluid rounded" alt="net-art" style="width:85%">
-	<p3>​Future project.</p3>
-	<br> <a href="minecraft.html"><p style="text-align:center">view my craft</a>
-  </div>
-  <div class="column">
-  <p><p style="text-align:center">Minecraft</p>
-    <img src="images/74.png" class="img-fluid rounded" alt="net-art" style="width:85%">
-	<p3>​Future project.</p3>
-	<br> <a href="3d.html"><p style="text-align:center">view my 3d</a>
-  </div>
-</div>
-
 <br>
+<p>These are all the projects I've done in ART 74. Click the links under each respective picture to go to it's page.</p>
+<br>
+<br>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	<h3>"Fashion" Series (Glitch Art Project)</h3>
+      <img src="images/glitch1.png" alt="glitch" class="img-fluid rounded" class="d-block w-80">
+      <h4>This project was a utilization of two different glitching methods using audio and the other was adjusting the image code.</h4>
+        <br> <a href="glitch.html"><p style="text-align:center">view my glitch</a>
+    </div>
+    <div class="carousel-item">
+    <h4>Kanye West VS Pete Davidson (Meme Mashup Project)</h4>
+      <img src="images/meme-mashup.png" alt="meme" class="img-fluid rounded" class="d-block w-80">
+      <h4>This is a Photoshop meme mash up project.</h4>
+        <br> <a href="meme.html"><p style="text-align:center">view my meme</a>
+    </div>
+    <div class="carousel-item">
+	<h3>Net Art</h3>
+      <img src="images/white-space-fill.gif" alt="net-art" class="img-fluid rounded" class="d-block w-80">
+      <h4>​This game is a point-and-click adventure where you the player are stuck in your subconscious and dreams.</h4>
+        <br> <a href="net-art.html"><p style="text-align:center">view my game</a>
+    </div>
+	<div class="carousel-item">
+	<h3>p5.js Self-Portrait</h3>
+      <img src="images/p5js-self-portrait.png" alt="portrait" class="img-fluid rounded" class="d-block w-80">
+      <h4>A stylized self portrait of myself using p5.js coding.</h4>
+	<br> <a href="self-portrait.html"><p style="text-align:center">view my portrait</a>
+    </div>
+    <div class="carousel-item">
+	<h3>DIYPS 2020</h3>
+      <img src="images/diyps.png" alt="diyps" class="img-fluid rounded" class="d-block w-80">
+      <h4>A doodling application that can specifically create retro windows aesthetic and 8-bit video game art.</h4>
+	<br> <a href="diyps.html"><p style="text-align:center">view my tool</a>
+    </div>
+	<div class="carousel-item">
+	<h3>Minecraft</h3>
+      <img src="images/74.png" alt="minecraft" class="img-fluid rounded" class="d-block w-80">
+      <h4>​Future project.</h4>
+	<br> <a href="minecraft.html"><p style="text-align:center">view my craft</a>
+    </div>
+    <div class="carousel-item">
+	<h3>3D Art</h3>
+      <img src="images/74.png" alt="3d" class="img-fluid rounded" class="d-block w-80">
+      <h4>​Future project.</h4>
+        <br> <a href="3d.html"><p style="text-align:center">view my 3d</a>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+</div>
 
 </body>
 </html> 
