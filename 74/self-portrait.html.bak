@@ -17,10 +17,11 @@
  <style>
 body {
   background-image: url('images/glitch-bg1.gif');
-}
-  background-position: center;
+    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
 </style> 
 
 <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
