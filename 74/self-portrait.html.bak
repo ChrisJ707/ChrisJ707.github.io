@@ -14,12 +14,37 @@
 </head>
 <body>
 
+ <style>
+body {
+  background-image: url('images/glitch-bg1.gif');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style> 
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+ <ul class="navbar-nav">
+ 	<li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+	<li class="nav-item"><a class="nav-link" href="glitch.html">glitch</a></li>
+	<li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
+    <li class="nav-item"><a class="nav-link" href="net-art.html">net-art</a></li>
+    <li class="nav-item"><a class="nav-link" href="self-portrait.html">p5js selfie</a></li>
+	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
+	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
+	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
+</ul> 
+</nav>
+
 <!-- below is the part for self-portrait -->
 <!-- first row of grid -->
 <div class="row">
 
 <!-- header inside the 1st row-->
 <h1>P5.JS SELF-PORTRAIT</h1>
+<br>
+<br>
+<br>
 </div>
 
 <!-- grid for portrait and code -->
