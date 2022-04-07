@@ -1,51 +1,3 @@
- <!DOCTYPE html>
-<html>
-<head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel='stylesheet' href='mycss.css'>
-
-<title>P5.JS SELF-PORTRAIT - chrisj707 portfolio</title>
-</head>
-<body>
-
- <style>
-body {
-  background-image: url('images/glitch-bg1.gif');
-}
-</style> 
-
-<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
- <ul class="navbar-nav">
- 	<li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
-	<li class="nav-item"><a class="nav-link" href="glitch.html">glitch</a></li>
-	<li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
-    <li class="nav-item"><a class="nav-link" href="net-art.html">net-art</a></li>
-    <li class="nav-item"><a class="nav-link" href="self-portrait.html">p5js selfie</a></li>
-	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
-	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
-	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
-</ul> 
-</nav>
-
-<div class="container-fluid">
-
-<br>
-<h1>P5.JS SELF-PORTRAIT</h1>
-<br>
-<br>
-
-<div id="top-element">P5JS</div>
-<div id="iframe-wrapper">
-    <iframe src="selfie/self_portrait.html" height="520" width="520" title="p5js selfie" class="rounded" scrolling="auto" style="float:left></iframe>
-
-</div>
-<pre>
 function setup() {
   createCanvas(520, 520);
 
@@ -178,8 +130,3 @@ function draw() {
   
   noStroke();
 }
-
-</pre>
-</div>
-</body>
-</html> 

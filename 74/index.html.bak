@@ -13,6 +13,7 @@
 <title>chrisj707 portfolio</title>
 </head>
 <body>
+<div class="container-fluid">
 
  <style>
 body {
@@ -99,6 +100,8 @@ body {
   <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
+</div>
+
 </div>
 
 </body>
