@@ -17,11 +17,7 @@
  <style>
 body {
   background-image: url('images/glitch-bg1.gif');
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
 </style> 
 
 <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
@@ -37,17 +33,25 @@ body {
 </ul> 
 </nav>
 
-<div class="container-fluid" id="leftp">
+<!-- below is the part for self-portrait -->
+<!-- first row of grid -->
+<div class="row">
 
-<br>
+<!-- header inside the 1st row-->
 <h1>P5.JS SELF-PORTRAIT</h1>
-<br>
-<br>
-
-<div id="top-element">P5JS</div>
-<iframe src="selfie/self_portrait.html" height="520" width="520" title="p5js selfie" class="rounded" scrolling="auto"></iframe>
 </div>
-<pre>
+
+<!-- grid for portrait and code -->
+<!-- second row -->
+<div class="row">
+  <!-- first column for portrait -->
+  <div class="col">
+     <iframe src="selfie/self_portrait.html" height="520" width="520" title="p5js selfie" class="rounded" scrolling="auto"></iframe>
+  </div>
+  <!-- second column for code -->
+  <div class="col">
+    <!-- I gave a css style to make the text white, you can replace it by any color you want -->
+    <pre style="color: white">
 function setup() {
   createCanvas(520, 520);
 
@@ -180,7 +184,8 @@ function draw() {
   
   noStroke();
 }
-
-</pre>
+    </pre>
+  </div>
+</div>
 </body>
 </html> 
