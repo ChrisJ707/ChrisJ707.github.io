@@ -1,93 +1,97 @@
  <!DOCTYPE html>
 <html>
 <head>
-<link rel='stylesheet' href='mycss.css'>
-<title>NET-ART - chrisj707 portfolio</title>
-</head>
-
-<!-- Latest compiled and minified CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-<body style="margin:15;padding:20">
+<link rel='stylesheet' href='mycss.css'>
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<title>NET ART - chrisj707 portfolio</title>
+</head>
+<body>
+
+ <style>
+body {
+  background-image: url('images/dg3.gif');
+
+}
+</style> 
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
  <ul class="navbar-nav">
  	<li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
 	<li class="nav-item"><a class="nav-link" href="glitch.html">glitch</a></li>
 	<li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
     <li class="nav-item"><a class="nav-link" href="net-art.html">net-art</a></li>
-    <li class="nav-item"><a class="nav-link" href="self-portrait.html">self-portrait</a></li>
+    <li class="nav-item"><a class="nav-link" href="self-portrait.html">p5js selfie</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
 	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
 </ul> 
 </nav>
 
+<div class="container-fluid">
+
 <br>
-<h1>HTML NET-ART</h1>
-<p3><p style="text-align:center">Using notepad++, I created a series of 10 html pages based on an rpg game called Omori as a choose your adventure game. It's a very short rendition of it and using my own creative liberties, I came up with my own cryptic storytelling, but I'm glad I was able to like get the beginning and the premise of the original game on here in my own creative way. I used a bunch of images and gifs from the game to try to replicate its aesthetic as much as possible and I made it to be like a pick your own adventure kind of story. I have like 2-3 different routes in here, which I think is pretty cool.</p>
+<h1>NET ART</h1>
 <br>
-<p3><p style="text-align:left">Here are screenshots of the pages but click on the gif or the button to try it out yourself!</p3>
-<img src="images/white-space.gif" class="img-fluid rounded" alt="net-art" style="width:35%">
-<a href="https://chrisj707.github.io/white-space/"><p style="text-align:center">PLAY</a>
+<h3>WHITE SPACE</h3>
+<br>
+<br>
+<p>Using notepad++, I created a series of 10 html pages based on an rpg game called Omori as a choose your adventure game. 
+   It's a very short rendition of it and using my own creative liberties, I came up with my own cryptic storytelling, but 
+   I'm glad I was able to like get the beginning and the premise of the original game on here in my own creative way.</p>
+<br>
+<br>
+<h4>Click on the gif to play!</h4>
+<a href="https://chrisj707.github.io/white-space/">
+   <img src="images/white-space.gif" alt="glitch" width="350" height="250">
+</a>
+<br> 
+<h4>I used a bunch of images and gifs from the game to try to replicate its aesthetic as much as possible and I made it to be 
+   like a pick your own adventure kind of story. I have like 2-3 different routes in here, which I think is pretty cool.</h4>
+<br>
+<h2>SCREENSHOTS</h2>
 
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-	<button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
-	<button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
-	<button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
-	<button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
-	<button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
-  </div>
-
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/pg1.png" alt="1" class="d-block w-80">
+      <img src="images/pg1.png" alt="glitch" class="img-fluid rounded" class="d-block w-80">
     </div>
     <div class="carousel-item">
-      <img src="images/pg2.png" alt="2" class="d-block w-80">
+      <img src="images/pg2.png" alt="meme" class="img-fluid rounded" class="d-block w-80">
     </div>
     <div class="carousel-item">
-      <img src="images/pg3.png" alt="3" class="d-block w-80">
+      <img src="images/pg3.png" alt="net-art" class="img-fluid rounded" class="d-block w-80">
     </div>
 	<div class="carousel-item">
-      <img src="images/pg4.png" alt="4" class="d-block w-80">
+      <img src="images/pg4.png" alt="portrait" class="img-fluid rounded" class="d-block w-80">
     </div>
     <div class="carousel-item">
-      <img src="images/pg5.jpg" alt="5" class="d-block w-80">
+      <img src="images/pg5.png" alt="diyps" class="img-fluid rounded" class="d-block w-80">
     </div>
 	<div class="carousel-item">
-      <img src="images/pg6.png" alt="6" class="d-block w-80">
+      <img src="images/pg6.png" alt="minecraft" class="img-fluid rounded" class="d-block w-80">
     </div>
     <div class="carousel-item">
-      <img src="images/pg7.png" alt="7" class="d-block w-80">
+      <img src="images/pg7.png" alt="3d" class="img-fluid rounded" class="d-block w-80">
+	  </div>
+    <div class="carousel-item">
+      <img src="images/pg8.png" alt="diyps" class="img-fluid rounded" class="d-block w-80">
     </div>
 	<div class="carousel-item">
-      <img src="images/pg8.png" alt="8" class="d-block w-80">
+      <img src="images/pg9.png" alt="minecraft" class="img-fluid rounded" class="d-block w-80">
     </div>
     <div class="carousel-item">
-      <img src="images/pg9.png" alt="9" class="d-block w-80">
-    </div>
-	<div class="carousel-item">
-      <img src="images/pg10.png" alt="10" class="d-block w-80">
-    </div>
+      <img src="images/pg10.png" alt="3d" class="img-fluid rounded" class="d-block w-80">
+	</div>
   </div>
 
   <!-- Left and right controls/icons -->
@@ -97,6 +101,8 @@
   <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
+</div>
+
 </div>
 
 </body>

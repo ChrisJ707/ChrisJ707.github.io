@@ -1,29 +1,33 @@
  <!DOCTYPE html>
 <html>
 <head>
-<link rel='stylesheet' href='mycss.css'>
-<title>SELF-PORTRAIT - chrisj707 portfolio</title>
-</head>
-
-<!-- Latest compiled and minified CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-<body style="margin:15;padding:20">
+<link rel='stylesheet' href='mycss.css'>
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<title>DIYPS - chrisj707 portfolio</title>
+</head>
+<body>
+
+ <style>
+body {
+  background-image: url('images/wave3.gif') ;
+    background-size: auto 164%;
+}
+</style> 
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
  <ul class="navbar-nav">
  	<li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
 	<li class="nav-item"><a class="nav-link" href="glitch.html">glitch</a></li>
 	<li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
     <li class="nav-item"><a class="nav-link" href="net-art.html">net-art</a></li>
-    <li class="nav-item"><a class="nav-link" href="self-portrait.html">self-portrait</a></li>
+    <li class="nav-item"><a class="nav-link" href="self-portrait.html">p5js selfie</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
 	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
@@ -31,95 +35,62 @@
 </nav>
 
 <br>
-<h1>DIYPS 2022</h1>
-<p2>A drawing tool to create your own custom retro art made in p5.js. My tool is designed for recreating that old windows desktop aesthetic with the ability of making 8-bit video game art!</p2>
-<img src="images/diyps.png" class="img-fluid rounded" alt="mashup" style="width:40%" align="left">
-<CLEAR=”left” />
+<h1>DIYPS</h1>
+<br>
+<h3>Retro Interface & Video Game Art</h3>
 <br>
 <br>
-
-<p3>Controls:</p3>
-<br>
-<p3>Key<br></p3>
-<p3>1<br></p3>	
-<p3>2<br></p3>
-<p3>3<br></p3>
-<p3>4<br></p3>
-<p3>5<br></p3>
-<p3>6<br></p3>
-<p3>7<br></p3>
-<p3>8<br></p3>
-<p3>9<br></p3>
-<p3>0<br></p3>
-<p3>-<br></p3>
-<p3>=<br></p3>
-<p3>q<br></p3>
-<p3>w<br></p3>
-<p3>e<br></p3>
-<p3>r<br></p3>
-<p3>t<br></p3>
-<p3>y<br></p3>
-<p3>u<br></p3>
-<p3>i<br></p3>
-<p3>o<br></p3>
-
-	
-Function
-Notes Window
-Error Message
-Paint Window
-Warning Message
-Mouse Pointer
-Mouse Hand
-Window Start Button
-Two text Boxes
-Cat Pixel
-Random Color Box
-Explosion
-Stick Man
-Heart Eyes Emote
-Sleep Emote
-Fire
-8-bit Kirby
-Mario jump
-Superstar
-Pikachu Pixel
-8-bit Cloud
-Crying Cat Pixel
-
-<br>
-<a href="https://chrisj707.github.io/diyps.html"><p style="text-align:left">VIEW CODE</a>
+<p>A drawing tool to create your own custom retro art made in p5.js. My tool is designed for recreating that 
+   old windows desktop aesthetic with the ability of making 8-bit video game art!</p>
 <br>
 
-<style>
-* {
-  box-sizing: border-box;
-}
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-
+<!-- below is the part for self-portrait -->
+<!-- first row of grid -->
 <div class="row">
-  <div class="column">
-   <br> <a href="net-art.html"><p style="text-align:left">BACK</a>
+
+<!-- header inside the 1st row-->
+</div>
+
+<!-- grid for portrait and code -->
+<!-- second row -->
+<div class="row">
+  <!-- first column for portrait -->
+  <div class="col">
+  <br>
+  <br>
+     <iframe src="https://chrisj707.github.io/diyps2022/index.html " height="650" width="650" title="p5js selfie" class="rounded" scrolling="auto"></iframe>
   </div>
-  <div class="column">
-    <br> <a href="index.html"><p style="text-align:center">HOME</a>
-  </div>
-  <div class="column">
-  <br> <a href="diyps.html"><p style="text-align:right">NEXT</a>
+  <!-- second column for code -->
+  <div class="col">
+    <!-- I gave a css style to make the text white, you can replace it by any color you want -->
+    <pre style="color: white" style="text-align:left;">
+	<h2>CONTROLS:</h2>
+	
+Key		Function
+1		Notes Window
+2		Error Message
+3		Paint Window
+4		Warning Message
+5		Mouse Pointer
+6		Mouse Hand
+7		Window Start Button
+8		Two text Boxes
+9		Cat Pixel
+0		Random Color Box Background
+-		Explosion
+=		Stick Man
+q		Heart Eyes Emote
+w		Sleep Emote
+e		Fire
+r		8-bit Kirby
+t		Mario jump
+y		Superstar
+u		Pikachu Pixel
+i		8-bit Cloud
+o		Crying Cat Pixel
+
+    </pre>
   </div>
 </div>
 </body>
