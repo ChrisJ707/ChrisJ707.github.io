@@ -9,8 +9,8 @@ var img1, img2;
 
 function preload() {
   
-  img1 = loadImage('https://chrisj707.github.io/images/space.png');
-  img2 = loadImage('https://chrisj707.github.io/images/invader1.png');
+  img1 = loadImage('https://chrisj707.github.io/game/images/space.png');
+  img2 = loadImage('https://chrisj707.github.io/gameimages/invader1.png');
 }
 
 function setup() {
