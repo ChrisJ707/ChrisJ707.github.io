@@ -44,7 +44,7 @@ function setup() {
 }// end of setup
 
 function draw() {
-  cursor(https://chrisj707.github.io/game/images/'ship.png');
+  cursor(img4);
   
   if(gameState =="begin"){
   background(beginImg);
