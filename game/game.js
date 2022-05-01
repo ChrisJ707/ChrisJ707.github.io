@@ -10,31 +10,31 @@ var beginImg, img1, img2, img3, img4, img5, img6, img7, img8,
      img17, img18, img19, img20, img21, img22, img23, img24;
 
 function preload() {
-   beginImg= loadImage('https://chrisj707.github.io/game/images/start1.gif');
-   img1= loadImage('https://chrisj707.github.io/game/images/space1.gif');
-   img2= loadImage('https://chrisj707.github.io/game/images/glitch-bg1.gif');
-   img3= loadImage('https://chrisj707.github.io/game/images/sky.png');
-   img4= loadImage('https://chrisj707.github.io/game/images/glitch-spaz1.gif');
-   img5= loadImage('https://chrisj707.github.io/game/images/space.png');
-   img6= loadImage('https://chrisj707.github.io/game/images/glitch-bg6.gif');
-   img7= loadImage('https://chrisj707.github.io/game/images/hyperspace.gif');
-   img8= loadImage('https://chrisj707.github.io/game/images/space3.gif');
-   img9= loadImage('https://chrisj707.github.io/game/images/desktop-glitch.gif');
-   img10= loadImage('https://chrisj707.github.io/game/images/wave2.gif');
-   img11= loadImage('https://chrisj707.github.io/game/images/level1.png');
-   img12= loadImage('https://chrisj707.github.io/game/images/level2.png');
-   img13= loadImage('https://chrisj707.github.io/game/images/level3.png');
-   img14= loadImage('https://chrisj707.github.io/game/images/level4.png');
-   img15= loadImage('https://chrisj707.github.io/game/images/level5.png');
-   img16= loadImage('https://chrisj707.github.io/game/images/level6.png');
-   img17= loadImage('https://chrisj707.github.io/game/images/level7.png');
-   img18= loadImage('https://chrisj707.github.io/game/images/level8.png');
-   img19= loadImage('https://chrisj707.github.io/game/images/level9.png');
-   img20= loadImage('https://chrisj707.github.io/game/images/level10.png');
-   img21= loadImage('https://chrisj707.github.io/game/images/invader1.png');
-   img22= loadImage('https://chrisj707.github.io/game/images/invader2.png');
-   img23= loadImage('https://chrisj707.github.io/game/images/error.png');
-   img24= loadImage('https://chrisj707.github.io/game/images/win2.gif');
+   beginImg= loadImage('images/start1.gif');
+   img1= loadImage('images/space1.gif');
+   img2= loadImage('images/glitch-bg1.gif');
+   img3= loadImage('images/sky.png');
+   img4= loadImage('images/glitch-spaz1.gif');
+   img5= loadImage('images/space.png');
+   img6= loadImage('images/glitch-bg6.gif');
+   img7= loadImage('images/hyperspace.gif');
+   img8= loadImage('images/space3.gif');
+   img9= loadImage('images/desktop-glitch.gif');
+   img10= loadImage('images/wave2.gif');
+   img11= loadImage('images/level1.png');
+   img12= loadImage('images/level2.png');
+   img13= loadImage('images/level3.png');
+   img14= loadImage('images/level4.png');
+   img15= loadImage('images/level5.png');
+   img16= loadImage('images/level6.png');
+   img17= loadImage('images/level7.png');
+   img18= loadImage('images/level8.png');
+   img19= loadImage('images/level9.png');
+   img20= loadImage('images/level10.png');
+   img21= loadImage('images/invader1.png');
+   img22= loadImage('images/invader2.png');
+   img23= loadImage('images/error.png');
+   img24= loadImage('images/win2.gif');
 }
 
 function setup() {
