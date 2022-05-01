@@ -10,7 +10,7 @@ var beginImg, img1, img2, img3, img4, img5, img6, img7, img8,
      img17, img18, img19, img20, img21, img22, img23, img24;
 
 function preload() {
-   beginImg= loadImage('images/start1.gif');
+   beginImg= loadImage('https://chrisj707.github.io/game/images/start1.gif');
    img1= loadImage('https://chrisj707.github.io/game/images/space1.gif');
    img2= loadImage('https://chrisj707.github.io/game/images/glitch-bg1.gif');
    img3= loadImage('https://chrisj707.github.io/game/images/sky.png');
