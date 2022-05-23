@@ -30,8 +30,11 @@ body {
 	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
 	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
+	<li class="nav-item"><a class="nav-link" href="Final.html">Final</a></li>
 </ul> 
 </nav>
+
+<div class="container-fluid">
 
 <br>
 <h1>GLITCH ART</h1>
@@ -65,6 +68,7 @@ body {
 
 <br>
 
+</div>
 
 </body>
 </html> 

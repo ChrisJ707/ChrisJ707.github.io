@@ -10,13 +10,14 @@
 
 <link rel='stylesheet' href='mycss.css'>
 
-<title>3D ART - chrisj707 portfolio</title>
+<title>DIYPS - chrisj707 portfolio</title>
 </head>
 <body>
 
  <style>
 body {
-  background-image: url('images/glitch-bg1.gif');
+  background-image: url('images/wave3.gif') ;
+    background-size: auto 164%;
 }
 </style> 
 
@@ -33,25 +34,66 @@ body {
 </ul> 
 </nav>
 
-<div class="container-fluid">
+<br>
+<h1>GAME</h1>
+<br>
+<h3>Spaced Out Invader</h3>
+<br>
+<br>
+<p>A P5js driven game where you're playing a nostalgic space arcade game 
+where you gotta shoot down the aliens that appear on screen. Not everything
+is as it seems however. Beat the 10 levels and you win!
+ </p>
+<br>
 
-<br>
-<h1>3D ART</h1>
-<br>
-<h3>Future Project</h3>
-<br>
-<br>
-<p>For this project we had to gather different images and mash them up in order to create a meme that reflects today's humor and trending events.</p>
-<br>
-<br>
 
-<br>
-<h3>Final Result</h3>
-<br>
-<br>
-<img src="images/74.png" class="img-fluid rounded" alt="mashup" style="float:left;margin:0px 50px" width="625" height="625">
-<p>I used the game Minecraft and made an abstract 3d object.</p>
+<!-- below is the part for self-portrait -->
+<!-- first row of grid -->
+<div class="row">
 
+<!-- header inside the 1st row-->
+</div>
+
+<!-- grid for portrait and code -->
+<!-- second row -->
+<div class="row">
+  <!-- first column for portrait -->
+  <div class="col">
+  <br>
+  <br>
+     <iframe src="https://chrisj707.github.io/game/index.html " height="600" width="600" title="p5js selfie" class="rounded" scrolling="auto"></iframe>
+  </div>
+  <!-- second column for code -->
+  <div class="col">
+    <!-- I gave a css style to make the text white, you can replace it by any color you want -->
+    <pre style="color: white" style="text-align:left;">
+	<h2>CONTROLS:</h2>
+	
+Key		Function
+1		Notes Window
+2		Error Message
+3		Paint Window
+4		Warning Message
+5		Mouse Pointer
+6		Mouse Hand
+7		Window Start Button
+8		Two text Boxes
+9		Cat Pixel
+0		Random Color Box Background
+-		Explosion
+=		Stick Man
+q		Heart Eyes Emote
+w		Sleep Emote
+e		Fire
+r		8-bit Kirby
+t		Mario jump
+y		Superstar
+u		Pikachu Pixel
+i		8-bit Cloud
+o		Crying Cat Pixel
+
+    </pre>
+  </div>
 </div>
 </body>
 </html> 

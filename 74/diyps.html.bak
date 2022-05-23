@@ -31,6 +31,7 @@ body {
 	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
 	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
+	<li class="nav-item"><a class="nav-link" href="Final.html">Final</a></li>
 </ul> 
 </nav>
 
@@ -65,7 +66,6 @@ body {
   <div class="col">
     <!-- I gave a css style to make the text white, you can replace it by any color you want -->
     <pre style="color: white" style="text-align:left;">
-	
 	<h2>CONTROLS:</h2>
 	
 Key		Function

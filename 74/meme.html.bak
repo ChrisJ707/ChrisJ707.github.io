@@ -16,8 +16,7 @@
 
  <style>
 body {
-  background-image: url('images/glitch-bg3.gif');
-  background-size: auto 164%;
+  background-image: url('images/glitch-bg1.gif');
 }
 </style> 
 
@@ -31,6 +30,7 @@ body {
 	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
 	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
+	<li class="nav-item"><a class="nav-link" href="Final.html">Final</a></li>
 </ul> 
 </nav>
 

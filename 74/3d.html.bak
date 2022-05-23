@@ -1,49 +1,110 @@
  <!DOCTYPE html>
 <html>
 <head>
-<link rel='stylesheet' href='mycss.css'>
-<title>3D PRINT - chrisj707 portfolio</title>
-</head>
-
-<!-- Latest compiled and minified CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-<body style="margin:15;padding:20">
+<link rel='stylesheet' href='mycss.css'>
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<title>3D ART - chrisj707 portfolio</title>
+</head>
+<body>
+
+ <style>
+body {
+  background-image: url('images/blackhole.gif') ;
+  background-size: auto 153%;
+    
+}
+</style> 
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
  <ul class="navbar-nav">
  	<li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
 	<li class="nav-item"><a class="nav-link" href="glitch.html">glitch</a></li>
 	<li class="nav-item"><a class="nav-link" href="meme.html">meme</a></li>
     <li class="nav-item"><a class="nav-link" href="net-art.html">net-art</a></li>
-    <li class="nav-item"><a class="nav-link" href="self-portrait.html">self-portrait</a></li>
+    <li class="nav-item"><a class="nav-link" href="self-portrait.html">p5js selfie</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
 	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
+	<li class="nav-item"><a class="nav-link" href="final.html">Final</a></li>
 </ul> 
 </nav>
 
-<br>
-<h1>3D Print</h1>
-<img src="images/74.png" class="img-fluid rounded" alt="3d" style="width:40%" align="left">
-<CLEAR=”left” />
-<br>
-<br>
-<p3>Using the code from Minecraft, we 3d-printed the structure we made in Minecraft</p3>
+<div class="container-fluid">
 
- <style>
- margin: 10px
-body {
-  background-image: url('pokemon.jpg');
-}
-</style> 
+<br>
+<h1>3D ART</h1>
+<br>
+<h3>Retro Re:Imagined Part 2</h3>
+<br>
+<br>
+<p>Part 2 of Retro Re:Imagined</p>
+<br>
+<p>After creating 3d objects in minecraft, a program called mineways is used to extract the code
+of the object directly from our minecraft world's save file where the object was crafted.
+The extracted code is imported and creates a 3d model, which the file can be exported onto a
+program that lets you 3d print it.</p>
 
+<br>
+<br>
+<h3>3d-Printed and Painted of the Models</h3>
+<br>
+<p>Here are images I took after 3d-printing my Mario sculpture.
+<br>
+<h3>Final Results</h3>
+
+<!-- Carousel -->
+<div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	<h3>First Draft Small Scale</h3>
+      <img src="images/draft.jpg" alt="mario1" class="img-fluid rounded" class="d-block w-80" style="width:45%">
+	  <h4> This was my first print of my 3d 8-bit Mario sculpture. The material used to print was filament and
+           this small object, which is about half an inch took 1 hour and 30 minutes to print.	  
+    </div>
+    <div class="carousel-item">
+	<h3>Final Draft Angle 1</h3>
+      <img src="images/3d-3.jpg" alt="mario2" class="img-fluid rounded" class="d-block w-80" style="width:45%">
+      <h4> This was my final print of my 3d 8-bit Mario sculpture. Unlike the first draft that was printed with
+           filament, this was resin printed instead.</h4>
+	</div>
+    <div class="carousel-item">
+	<h3>Final Draft Angle 2</h3>
+      <img src="images/3d-s2.jpg" alt="mario3" class="img-fluid rounded" class="d-block w-80" style="width:45%">
+      <h4> This statue stands at 2 6/8 inches tall and comparing the looks and feel of the material, the resin
+	       model looks much smoother and it has more weight ot it compared ot the filament.</h4>
+	</div>
+	<div class="carousel-item">
+	<h3>Final Draft Angle 3</h3>
+      <img src="images/3d-3b.jpg" alt="mario4" class="img-fluid rounded" class="d-block w-80" style="width:45%">
+      <h4> What I really liked about this print was that it was that you can feel the higher quality material in it
+	       and I'm happy with how my 3d print came out.</h4>
+	</div>
+    <div class="carousel-item">
+	<h3>Comparison</h3>
+    	<img src="images/comparison.jpg" alt="mario5" class="img-fluid rounded" class="d-block w-80" style="width:45%">
+    <h4> Here's a size comparison of the two. The draft print is about 0.45 inches tall, whereas the final is 2.75 inches tall.
+	     The smaller one took 1 hour and 30 minutes to print, whereas the bigger one took 8 hours to print.</h4>
+	</div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+</div>
 </body>
 </html> 

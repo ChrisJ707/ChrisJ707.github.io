@@ -17,7 +17,7 @@
  <style>
 body {
   background-image: url('images/color-wave.gif');
-  background-size: auto 140%;
+  background-size: auto 160%;
 }
 </style> 
 

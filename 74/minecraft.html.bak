@@ -10,13 +10,14 @@
 
 <link rel='stylesheet' href='mycss.css'>
 
-<title>MEME MASHUP - chrisj707 portfolio</title>
+<title>MINECRAFT - chrisj707 portfolio</title>
 </head>
 <body>
 
  <style>
 body {
-  background-image: url('images/glitch-bg1.gif');
+  background-image: url('images/gridcrop.gif') ;
+    background-size: auto 220%;
 }
 </style> 
 
@@ -30,26 +31,71 @@ body {
 	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
 	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
+	<li class="nav-item"><a class="nav-link" href="Final.html">Final</a></li>
 </ul> 
 </nav>
 
 <div class="container-fluid">
 
 <br>
-<h1>MINECRAFT</h1>
+<h1>Minecraft Art</h1>
 <br>
-<h3>Future Project</h3>
+<h3>Retro Re:Imagine Part 1</h3>
 <br>
 <br>
-<p>For this project we had to gather different images and mash them up in order to create a meme that reflects today's humor and trending events.</p>
+<p>Part 1 of Retro Re:Imagined</p>
+<br>
+<p>The beginning of this project was to make art using Minecraft.I first decided to create a sculpture of a 3d 8-bit Mario. Later down the line I expanded on this idea further by 
+making a sculpture of a 3d 8-bit Sonic and a 3d 8-bit Link to garner the theme of old video games reintroduced in 3d art.
+</p>
+<br>
+<br>
+<h3>Minecraft Screenshots</h3>
+<p> Here are some screenshots of the models I made in Minecraft.
 <br>
 <br>
 
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+`
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	<h3>8-Bit Mario in 3D</h3>
+      <img src="images/8-bitmario.png" alt="mario" class="img-fluid rounded" class="d-block w-80" style="width:52%">
+      <h4>This was made in ART 74's Minecraft Server in Survival mode, so this took a lot longer than it shoul
+          have taken. I also originally wanted to do it in Mario's modern colors, but the only material we
+	      were allowed to build with was wool so I was at least able to do his original classic color palette.</h4>
+    </div>
+    <div class="carousel-item">
+	<h3>8-bit Link in 3d</h3>
+      <img src="images/8-bitlink.png" alt="link" class="img-fluid rounded" class="d-block w-80" style="width:52%">
+      <h4>​This was made in a differnt single player world in Minecraft. This time I wasn't constricted to the server
+	      and I could be in creative mode so this was finished a lot faster the first time.</h4>
+    </div>
+	<div class="carousel-item">
+	<h3>8-bit Sonic in 3D</h3>
+      <img src="images/8-bitsonic.png" alt="sonic" class="img-fluid rounded" class="d-block w-80" style="width:52%">
+      <h4>This was probably the most chalenging to construct. This is the largest model I made out of the three
+	      and I went through a lot of trial and error to get things looking right and natural. Even though this was
+		  made in creative mode, Sonic took just as long to make as it did making Mario in survival.</h4>
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
 <br>
-<h3>Final Result</h3>
-<br>
-<img src="images/74.png" class="img-fluid rounded" alt="mashup" style="float:left;margin:0px 50px" width="625" height="625">
-<p>I used the game Minecraft and made an abstract 3d object.</p>
+<p>The cultural significance of my piece is that Mario, Link, and Sonic are video game icons. Everyone has played a Mario 
+game before and Mario is arguably the first video game character that made video games popular in the first place.
+Mario's presence in video games helped inspire other creators to create games based on his influence. 
+These video game characters are what developed video game culture and I wanted to celebrate that history by making it part of my art.
+</p>
 
 </div>
 </body>

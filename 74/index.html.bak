@@ -28,8 +28,10 @@ body {
     <li class="nav-item"><a class="nav-link" href="net-art.html">net-art</a></li>
     <li class="nav-item"><a class="nav-link" href="self-portrait.html">p5js selfie</a></li>
 	<li class="nav-item"><a class="nav-link" href="diyps.html">diyps</a></li>
+	<li class="nav-item"><a class="nav-link" href="game.html">game</a></li>
 	<li class="nav-item"><a class="nav-link" href="minecraft.html">minecraft</a></li>
 	<li class="nav-item"><a class="nav-link" href="3d.html">3d-print</a></li>
+	<li class="nav-item"><a class="nav-link" href="Final.html">Final</a></li>
 </ul> 
 </nav>
 
@@ -82,16 +84,22 @@ body {
 	<br> <a href="diyps.html"><p style="text-align:center">view my tool</a>
     </div>
 	<div class="carousel-item">
-	<h3>Minecraft</h3>
-      <img src="images/74.png" alt="minecraft" class="img-fluid rounded" class="d-block w-80">
-      <h4>​Future project.</h4>
+	<h3>Retro Re:Imagined Part 1 (Minecraft Art)</h3>
+      <img src="images/8-bitmario.png" alt="minecraft" class="img-fluid rounded" class="d-block w-80" style="width:32%">
+      <h4>​ Using Minecraft to create creative 3d objects.</h4>
 	<br> <a href="minecraft.html"><p style="text-align:center">view my craft</a>
     </div>
     <div class="carousel-item">
-	<h3>3D Art</h3>
-      <img src="images/74.png" alt="3d" class="img-fluid rounded" class="d-block w-80">
-      <h4>​Future project.</h4>
+	<h3>Retro Re:Imagined Part 2 (3D Art)</h3>
+      <img src="images/3d-thumbnail2.jpg" alt="3d" class="img-fluid rounded" class="d-block w-80" style="width:32%">
+      <h4>​Using the code of the models made in Minecraft to 3d-print into real objects</h4>
         <br> <a href="3d.html"><p style="text-align:center">view my 3d</a>
+	</div>
+	<div class="carousel-item">
+	<h3>Retro Re:Imagined Final</h3>
+      <img src="images/final-thumbnail.jpg" alt="Final" class="img-fluid rounded" class="d-block w-80" style="width:32%">
+      <h4>​Retro Re:Imagined Final. A celebratory project honroing video game culture taking old 2d sprites and turning it into 3d.</h4>
+        <br> <a href="final.html"><p style="text-align:center">view my final</a>
   </div>
 
   <!-- Left and right controls/icons -->
